@@ -1,0 +1,115 @@
+/* General styles */
+body {
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background: linear-gradient(270deg, rgba(240,0,0,1) 48%, rgba(138,0,0,1) 100%);
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background: linear-gradient(270deg, rgba(240,0,0,1) 48%, rgba(138,0,0,1) 100%);
+}
+#sezione-superiore{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#imageconteiner{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+#fotoprofilo{
+    width: 300px
+}
+#info-gen{
+    width: 100%;
+    text-align: center;
+}
+h1{
+    color: white;
+    -webkit-text-stroke: 1px #000000;
+
+}
+
+h2{
+    font-size: 1.5em;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 900;
+    -webkit-text-stroke: 1px #000000;
+    text-align: center;
+}
+#work-education{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#work-experience{
+    width: 100%
+}
+#education-training{
+    width: 100%;
+}
+#experience3{
+    text-align: center;
+}
+#traning{
+    text-align: center;
+}
+#communication-digital{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#communication{
+    text-align: center;
+    padding: 0 20px;
+    width: 100%;
+}
+#digital{
+    text-align: center;
+    padding: 0 20px;
+    width: 100%;
+}
+#languages{
+    text-align: center;
+    margin-top: 80px;
+}
+
+#gruppo1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#understanding{
+    background-color: #730007;
+    height: 40px;
+    border-radius: 9999px;
+    place-items: center;
+    display: grid;
+    border: solid #000000 1px;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.4);
+    padding: 0 20px;
+}
+#speaking{
+    background-color: #730007;
+    width: 8%;
+    height: 40px;
+    border-radius: 9999px;
+    place-items: center;
+    display: grid;
+    border: solid #000000 1px;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.4);
+}
+#driving-license{
+    text-align: center;
+}
