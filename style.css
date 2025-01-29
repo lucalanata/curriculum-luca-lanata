@@ -13,7 +13,18 @@ body {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     border: 1px solid #ddd;
-    background: linear-gradient(270deg, rgba(240,0,0,1) 48%, rgba(138,0,0,1) 100%);
+}
+#quadratoconteiner{
+    width: 800px;
+    margin-bottom: 200px;
+    position: absolute;
+    z-index: -1;
+    max-width: 85%;
+}
+#fotoquadrato{
+    width: 800px;
+    height: 350px;
+    max-width: 100%;
 }
 #sezione-superiore{
     margin: 50px;
@@ -248,4 +259,5 @@ h2{
 }
 #driving-license{
     text-align: center;
+    margin-top: 80px;
 }
